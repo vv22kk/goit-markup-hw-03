@@ -7,6 +7,7 @@
     <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -16,16 +17,17 @@
   <body>
     <!--header-->
     <header class="header">
+      <div class="container">
       <nav class="heder-nav">
        <a href="./index.html" class="header-logo logo link" lang="en"
           ><span class="logo-part">Web</span>Studio</a
         >
         <ul class="header-list list">
           <li class="header-item">
-            <a href="./index.html" class="header-link header link accent">Студия</a>
+            <a href="./index.html" class="header-link header link accent current">Студия</a>
           </li>
           <li class="header-item">
-            <a href="./portfolio.html" class="header-link header link accent  current">Портфолио</a>
+            <a href="./portfolio.html" class="header-link header link accent">Портфолио</a>
           </li>
           <li class="header-item">
             <a href="" class="header-link header link accent">Контакты</a>
@@ -42,10 +44,12 @@
           <a href="tel:+380961111111" class="header-tel header link accent">+38 096 111 11 11</a>
         </li>
       </ul>
+      </div>
     </header>
     <!---------------------portfolio---------------->
     <main>
         <section>
+          <div class="container section">
       <h1 class="title-portfolio visually-hidden">portfolio</h1>
       <ul class="porfolio-list">
         <li class="porfolio-item list"><button type="button" class="portfolio-button portfolio-current">Все</button></li>
@@ -128,9 +132,11 @@
           </a>
         </li>
       </ul>
+      </div>
       </section>
     </main>
-    <footer class="footer">
+   <footer class="footer">
+      <div class="container footer-secsion">
       <!--contacts footer-->
       <address class="contact-footer"></address>
        <a href="./index.html" class="footer-logo logo link" lang="en"
@@ -159,6 +165,7 @@
           </li>
         </ul>
       </address>
+      
     </footer>
   </body>
 </html>

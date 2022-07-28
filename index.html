@@ -7,6 +7,7 @@
     <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -16,6 +17,7 @@
   <body>
     <!--header-->
     <header class="header">
+      <div class="container">
       <nav class="heder-nav">
        <a href="./index.html" class="header-logo logo link" lang="en"
           ><span class="logo-part">Web</span>Studio</a
@@ -42,6 +44,7 @@
           <a href="tel:+380961111111" class="header-tel header link accent">+38 096 111 11 11</a>
         </li>
       </ul>
+      </div>
     </header>
     <!---------------------- hero -->
     <main>
@@ -51,9 +54,11 @@
         <button type="button" class="hero-button">Заказать услугу</button>
       </section>
       <!----------------------------benefits ---------------------->
-      <section class="benefits">
+      
+      <section class="benefits section">
         <!--скрыть при помощи css (скрытый текст)-->
-        <h2 class="benefits-title visually-hidden">Особенности компании</h2>
+        <div class="container">
+          <h2 class="benefits-title visually-hidden">Особенности компании</h2>
         <ul class="benefits-list list">
           <li class="benefits-item">
             <h3 class="benefits-pre-text">Внимание к деталям</h3>
@@ -83,9 +88,11 @@
               плановых заданий.
             </p>
           </li>
-        </ul>
+        </ul></div>
       </section>
+      <!---------------------------------- inform -->
       <section class="inform">
+      <div class="container">  
         <h2 class="inform-title title">Чем мы занимаемся</h2>
         <ul class="inform-list list">
           <li class="inform-item">
@@ -115,11 +122,12 @@
               class="inform-image"
             />
           </li>
-        </ul>
+        </ul></div>
       </section>
       <!--------------------------------- personal ------------------->
-      <section class="personal">
-        <h2 class="personal-title title">Наша команда</h2>
+      <section class="personal section">
+     <div class="container">   
+      <h2 class="personal-title title">Наша команда</h2>
         <ul class="personal-list">
           <li class="personal-item list" >
             <img
@@ -129,8 +137,10 @@
               height="260"
               class="personal-image"
             />
+            <div class="card-team">
             <h3 class="personal-name">Игорь Демьяненко</h3>
             <p class="personal-text">Product Designer</p>
+            </div>
           </li>
           <li class="personal-item list">
             <img
@@ -140,8 +150,10 @@
               height="260"
               class="personal-image"
             />
+             <div class="card-team">
             <h3 class="personal-name">Ольга Репина</h3>
             <p class="personal-text">Frontend Developer</p>
+           </div>
           </li>
           <li class="personal-item list">
             <img
@@ -151,8 +163,10 @@
               height="260"
               class="personal-image"
             />
+             <div class="card-team">
             <h3 class="personal-name">Николай Тарасов</h3>
             <p class="personal-text">Marketing</p>
+            </div>
           </li>
           <li class="personal-item list">
             <img
@@ -162,15 +176,18 @@
               height="260"
               class="personal-image"
             />
+             <div class="card-team">
             <h3 class="personal-name">Михаил Ермаков</h3>
             <p class="personal-text">UI Designer</p>
+             </div>
           </li>
-        </ul>
+        </ul></div>
       </section>
     </main>
     <footer class="footer">
+      <div class="container footer-secsion" >
       <!--contacts footer-->
-      <address class="contact-footer"></address>
+      <address class="contact-footer "></address>
        <a href="./index.html" class="footer-logo logo link" lang="en"
           ><span class="logo-part">Web</span>Studio</a
         >
@@ -197,6 +214,7 @@
           </li>
         </ul>
       </address>
+      
     </footer>
   </body>
 </html>
