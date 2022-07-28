@@ -68,7 +68,7 @@ ul {
   clip-path: inset(50%);
   margin: -1px;
 }
-/* -----------------------  header----------------------------- */
+/*-------------------- header ---------------------*/
 .logo {
   
   font-family: 'Raleway', sans-serif;
@@ -107,7 +107,7 @@ ul {
   color: var(--main-body-color);
 }
 
-/* --------------------------hero ----------------------------*/
+/*-------------------- hero --------------------*/
 .hero {
   text-align: center;
   background-color: var(--background-hero-color); /*тимчасово*/
@@ -143,7 +143,7 @@ ul {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-/* -------------------------benefits------------------------*/
+/*-------------------- benefits --------------------*/
 .benefits-pre-text {
   margin-bottom: 10px;
   font-size: 14px;
@@ -155,7 +155,11 @@ ul {
 .benefits-text {
   line-height: 1.71;
 }
-/* --------------------personal-------------- */
+/*-------------------- inform --------------------*/
+.inform-title{
+  margin-bottom:50px;
+}
+/*-------------------- personal --------------------*/
 .personal {
   background-color: var(--personal-back-color);
 }
@@ -173,11 +177,7 @@ ul {
   margin-top: 50px;
 }
 
-/* --------------------inform---------------- */
-.inform-title{
-  margin-bottom:50px;
-}
-/* --------------------footer---------------- */
+/*-----------------------contacts-footer--------------------*/
 .footer {
   background-color: var(--background-hero-color); /* тимчасово */
 }
@@ -206,8 +206,9 @@ ul {
     padding-bottom: 60px;
   }
 }
-/*---------------- Portfolio -------------------*/
+/*--------------------- portfolio --------------------*/
 .portfolio-title {
+  
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
