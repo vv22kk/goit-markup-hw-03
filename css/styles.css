@@ -1,0 +1,196 @@
+:root {
+  --background-white-color: #fff;
+  --accent-blue-color: #2196f3;
+  --text-link-color: #212121;
+  --logo-black-color: #000000;
+  --hero-white-color: #fff;
+  --background-hero-color: #2f303a; /*тимчасово*/
+  --main-body-color: #757575;
+  --btn-black-color: #212121;
+  --btn-back-color: #2196f3;
+  --btn-white-color: #fff;
+  --header-link-color: #212121;
+  --personal-back-color: #f5f4fa;
+  --footer-contact-color: rgba(255, 255, 255, 0.6);
+  --footer-text-white: #fff;
+  --portfolio-btn-background-color: #f5f4fa;
+  --portfolio-btn-txt-color: #212121;
+  --btn-back-hover-color: #188ce8;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+  color: var(--main-body-color);
+  font-size: 14px;
+  background-color: var(--background-white-color);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+/* -----------------------  header----------------------------- */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  color: var(--logo-black-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--text-link-color);
+}
+.header {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.header-logo span {
+  color: var(--accent-blue-color);
+}
+.header-link {
+  color: var(--header-link-color);
+}
+.accent:hover,
+.accent:focus {
+  color: var(--accent-blue-color);
+}
+.current {
+  color: var(--accent-blue-color);
+}
+.header-mail,
+.header-tel {
+  color: var(--main-body-color);
+}
+
+/* --------------------------hero ----------------------------*/
+.hero {
+  background-color: var(--background-hero-color); /*тимчасово*/
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--hero-white-color);
+}
+.hero-button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--btn-white-color);
+  background-color: var(--btn-back-color);
+  cursor: pointer;
+  border-radius: 4px;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--btn-back-hover-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* -------------------------benefits------------------------*/
+.benefits-pre-text {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  color: var(--text-link-color);
+  text-transform: uppercase;
+}
+.benefits-text {
+  line-height: 1.71;
+}
+/* -------------------------------------personal-------------- */
+.personal {
+  background-color: var(--personal-back-color);
+}
+.personal-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--text-link-color);
+}
+.personal-text {
+  font-size: 16px;
+  line-height: 1.18px;
+}
+/* --------------------footer---------------- */
+.footer {
+  background-color: var(--background-hero-color); /* тимчасово */
+}
+.footer-logo {
+  color: var(--hero-white-color);
+}
+.logo-part {
+  color: var(--accent-blue-color);
+}
+.contact {
+  line-height: 1.71;
+}
+.contact-mail,
+.contact-tel {
+  color: rgba(255, 255, 255, 0.6);
+}
+.contact-link {
+  color: var(--footer-text-white);
+}
+.btn-accent:hover,
+.btn-accent:focus {
+  color: var(--accent-blue-color);
+}
+/*---------------- Portfolio -------------------*/
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-link-color);
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--main-body-color);
+}
+
+.portfolio-button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  background-color: var(--portfolio-btn-background-color);
+  color: var(--portfolio-btn-txt-color);
+  cursor: pointer;
+  letter-spacing: 0.03em;
+}
+.portfolio-button:hover,
+.portfolio-button:hover {
+  background-color: var(--btn-back-color);
+  color: var(--btn-white-color);
+}
+.portfolio-current {
+  background-color: var(--accent-blue-color);
+  color: var(--btn-white-color);
+}
