@@ -17,6 +17,7 @@
   --portfolio-btn-txt-color: #212121;
   --btn-back-hover-color: #188ce8;
   --card-back-personal-color: #fff;
+  --card-back-portfolio-color: #fff;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -165,6 +166,7 @@ ul {
   margin-right: auto;
   border-radius: 4px;
   border: 0px;
+
   font-family: inherit;
   font-style: normal;
   font-weight: 700;
@@ -205,6 +207,9 @@ ul {
   display: flex;
   column-gap: 30px;
 }
+.inform-item {
+  width: calc((100% - 60px) / 3);
+}
 .inform-title {
   margin-bottom: 50px;
 }
@@ -218,7 +223,7 @@ ul {
 }
 .personal-item {
   display: block;
-  width: 270px;
+  width: calc((100% - 60px) / 3);
   max-width: 100%;
   height: auto;
 
@@ -301,7 +306,7 @@ ul {
   margin-right: 8px;
 }
 .portfolio-item-after {
-  width: 370px;
+  width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -313,7 +318,7 @@ ul {
 }
 .portfolio-card {
   padding: 20px 24px;
-  background: #ffffff;
+  background: var(--card-back-portfolio-color);
   border: 1px solid #eeeeee;
   border-top: none;
 }
@@ -338,6 +343,7 @@ ul {
   border-radius: 4px;
   border: 0;
   cursor: pointer;
+
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
