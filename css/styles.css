@@ -261,8 +261,6 @@ button {
 .personal-title {
   margin-bottom: 50px;
 }
-.card-team {
-}
 
 /*-----------------------contacts-footer--------------------*/
 
@@ -279,6 +277,7 @@ button {
   color: var(--accent-blue-color);
 }
 .contact-item:not(:last-child) {
+  font-style: normal;
   margin-bottom: 9px;
 }
 .contact {
